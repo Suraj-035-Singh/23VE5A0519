@@ -20,7 +20,7 @@ function Stats({ items }) {
             <tr key={idx}>
               <td>{item.original}</td>
               <td>
-                <a href={item.short} target="_blank" rel="noreferrer">
+                <a href={item.short} target="_self" >
                   {item.short}
                 </a>
               </td>
