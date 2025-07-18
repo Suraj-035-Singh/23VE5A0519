@@ -1,0 +1,107 @@
+/* General Reset and Base */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background-color: #eef1f5;
+}
+
+/* App Container */
+.app-container {
+  background: #ffffff;
+  padding: 2rem 2.5rem;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: #444;
+}
+
+/* Form Elements */
+input {
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  padding: 0.6rem;
+  width: 220px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+input:focus {
+  border-color: royalblue;
+  box-shadow: 0 0 4px rgba(65, 105, 225, 0.3);
+}
+
+/* Buttons */
+button {
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  padding: 0.6rem 1.2rem;
+  background-color: royalblue;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: dodgerblue;
+}
+
+/* Table */
+table {
+  width: 100%;
+  margin-top: 1.5rem;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+th, td {
+  border: 1px solid #e0e0e0;
+  padding: 0.8rem;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+td a {
+  color: royalblue;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+/* Table row hover effect */
+tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Error Text */
+p[style*="color: red"] {
+  font-weight: bold;
+  margin-top: 1rem;
+}
